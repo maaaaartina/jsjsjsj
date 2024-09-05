@@ -1,0 +1,11 @@
+p5 = new P5 ({ mode : "WEBGL"})
+
+let gunn =  p5.loadModel("https://raw.githubusercontent.com/maaaaartina/jsjsjsj/main/Gun.obj");
+
+s0.init({ src: p5.canvas });
+src(s0)
+.modulateRotate(osc(15,0.1))//.brightness(-.1),0.1)
+.scrollX([0.001,-0.001]).scrollY([-0.001,0.001])
+.scale(1, ()=> 0.9 + a.fft[3])
+.out()
+
