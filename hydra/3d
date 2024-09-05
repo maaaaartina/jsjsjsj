@@ -9,3 +9,7 @@ src(s0)
 .scale(1, ()=> 0.9 + a.fft[3])
 .out()
 
+p5.draw = () => {
+  let locX = p5.mouseX - p5.width/2}
+
+
